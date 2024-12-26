@@ -1,0 +1,109 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+header .header-content h2 {
+    font-size: 2.5rem;
+    color: #fdfdfd;
+    margin-bottom: 0.5rem;
+}
+
+header .btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    color: #fff;
+    background: #00c6ff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+header .btn:hover {
+    background: #4facfe;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 5%;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4facfe;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #666;
+}
+
+/* Experience Section */
+#experience .experience-card {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-left: 5px solid #4facfe;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Projects Section */
+.project-card {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #4facfe;
+    color: #fff;
+}
